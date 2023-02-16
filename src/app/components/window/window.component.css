@@ -10,7 +10,7 @@
     align-items: flex-start;
     flex-direction: column;
   }
-  .window {
+  /* .window {
       z-index: 1;
       position: absolute;
       top: 50%;
@@ -27,7 +27,7 @@
       background: #ffffff;
   
       transition-duration: 0.1s;
-  }
+  } */
   
   
   .short-cut{
@@ -74,7 +74,7 @@
       background-color: rgba(214, 214, 214, 0.363);
   }
   
-  .title-bar {
+  /* .title-bar {
       background: linear-gradient(180deg,#0997ff,#0053ee 8%,#0050ee 40%,#06f 88%,#06f 93%,#005bff 95%,#003dd7 96%,#003dd7);
       padding: 3px 5px;
       border-top: 1px solid #0831d9;
@@ -156,7 +156,7 @@
       border: none;
       overflow: scroll;
       resize: none;
-  }
+  } */
   
   /* .task-bar {
     background-color: #245EDC;

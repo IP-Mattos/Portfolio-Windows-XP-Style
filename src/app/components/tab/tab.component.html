@@ -1,1 +1,18 @@
-<p>tab works!</p>
+ <div *ngIf="toggle.state" class="window ">
+    <div class="title-bar">
+      <div><img src="../../../assets/img/notepad.png"> ReadME.txt</div>
+      <div class="controls">
+        <button class="cls" (click)="OnToggle()">x</button>
+        <button class="max">□</button>
+        <button class="min" (click)="OnToggle()">-</button>
+      </div>
+    </div>
+    <div class="menu-bar">
+      <span>File</span>
+      <span>Edit</span>
+      <span>Format</span>
+      <span>View</span>
+      <span>Help</span>
+    </div>
+    <textarea></textarea>
+</div>
