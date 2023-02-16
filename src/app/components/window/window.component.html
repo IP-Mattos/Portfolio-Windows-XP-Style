@@ -1,0 +1,50 @@
+<div class="desktop">
+  <div class="short-cut">
+    <div class="icon" id="notepad" (dblclick)="OnToggle()">
+      <img src="../../../assets/img/notepad.png" alt="">
+      <div class="icon-name">AboutMe.txt</div>
+    </div>
+    <div class="icon" id="notepad" (dblclick)="OnToggle()">
+      <img src="../../../assets/img/notepad.png" alt="">
+      <div class="icon-name">Projects.txt</div>
+
+    </div>
+    <div class="icon" id="notepad" (dblclick)="OnToggle()">
+      <img src="../../../assets/img/notepad.png" alt="">
+      <div class="icon-name">ContacMe.txt</div>
+
+    </div>
+
+  </div>
+  
+  <div *ngIf="toggle.state" class="window ">
+    <div class="title-bar">
+      <div><img src="../../../assets/img/notepad.png"> ReadME.txt</div>
+      <div class="controls">
+        <button class="cls" (click)="OnToggle()">x</button>
+        <button class="max">□</button>
+        <button class="min" (click)="OnToggle()">-</button>
+      </div>
+    </div>
+    <div class="menu-bar">
+      <span>File</span>
+      <span>Edit</span>
+      <span>Format</span>
+      <span>View</span>
+      <span>Help</span>
+    </div>
+    <textarea></textarea>
+  </div>
+  <app-taskbar/>
+<!-- 
+  <div class="task-bar">
+
+    <div class="btn-start"> <img src="../../../assets/img/icon.png" alt="start"> start</div>
+
+    <div class="tabs">
+      <div class="notepad" (click)="OnToggle()"> <img src="../../../assets/img/notepad.png" alt=""> ReadMe.txt</div>
+    </div>
+
+    <div class="time">{{time}}</div>
+  </div> -->
+</div>
