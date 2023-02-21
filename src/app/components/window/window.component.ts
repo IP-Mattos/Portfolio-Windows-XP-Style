@@ -11,22 +11,22 @@ export class WindowComponent {
   listSocial: socials[] = [
     {
       name: 'Git Hub',
-      icon: 'assets/img/social/github-icon.svg',
+      icon: '../../../assets/img/social/github-icon.svg',
       url: 'https://github.com/IP-Mattos',
     },
     {
       name: 'Linkedin',
-      icon: 'assets/img/social/linkedin-icon.svg',
+      icon: '../../../assets/img/social/linkedin-icon.svg',
       url: 'https://www.linkedin.com/in/iv%C3%A1n-ignacio-pe%C3%B1a-mattos-fullstack/',
     },
     {
       name: 'Email',
-      icon: 'assets/img/social/gmail-icon.svg',
+      icon: '../../../assets/img/social/gmail-icon.svg',
       url: 'mailto:ipmattoscontactos@gmail.com?Subject=Contacto',
     },
     {
       name: 'Cv',
-      icon: 'assets/img/social/pdf-icon.svg',
+      icon: '../../../assets/img/social/pdf-icon.svg',
       url: 'https://drive.google.com/file/d/1a_D7DczT2zSAo63aqr-Hc6efXzl-Tl6l/view?usp=sharing',
     },
   ];
