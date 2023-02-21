@@ -1,6 +1,6 @@
 <div *ngIf="toggle.state && toggle.isfolder" class="window ">
     <div class="title-bar">
-      <div><img src="../../../assets/img/folder.png" alt="folder"> Projects</div>
+      <div><img src="../../../assets/img/folder.png" alt=""> Projects</div>
       <div class="controls">
         <button class="cls" (click)="OnToggle()">x</button>
         <button class="max">□</button>
@@ -14,36 +14,36 @@
       <span>Favorites</span>
       <span>Tools</span>
       <span>Help</span>
-      <span class="icon"> <img src="../../../assets/img/icon.png" alt="icon"></span>
+      <span class="icon"> <img src="../../../assets/img/icon.png" alt=""></span>
     </div>
  
     <div class="function-menu">
       <div class="function-btn disable">
-        <img src="../../../assets/img/back.png" alt=" back">
+        <img src="../../../assets/img/back.png" alt="">
         <span>Back</span>
       </div>
       <div class="arrow disable"></div>
       <div class="function-btn disable">
-        <img src="../../../assets/img/forward.png" alt="arrow">
+        <img src="../../../assets/img/forward.png" alt="">
         <div class="arrow"></div>
       </div>
       <div class="function-btn">
-        <img src="../../../assets/img/up.png" alt="up">
+        <img src="../../../assets/img/up.png" alt="">
       </div>
  
       <div class="separator"></div>
       <div class="function-btn">
-        <img class="inside-separator" src="../../../assets/img/299(32x32).png" alt="separator">
+        <img class="inside-separator" src="../../../assets/img/299(32x32).png" alt="">
         <span>Search</span>
       </div>
  
       <div class="function-btn">
-        <img class="inside-separator" src="../../../assets/img/337(32x32).png" alt="separator">
+        <img class="inside-separator" src="../../../assets/img/337(32x32).png" alt="">
         <span>Folders</span>
         </div>
         <div class="separator"></div>
         <div class="function-btn">
-          <img  class="inside-separator" src="../../../assets/img/358(32x32).png" alt="separator">
+          <img  class="inside-separator" src="../../../assets/img/358(32x32).png" alt="">
           <div class="arrow">
           </div>
       </div>
@@ -52,12 +52,12 @@
     <div class="description-menu">
      <div class="description-tittle disable">Address</div>
      <div class="description-content">
-       <img src="../../../assets/img/676(16x16).png" alt="computer">
+       <img src="../../../assets/img/676(16x16).png" alt="">
        <div class="text">My Computer</div>
-       <img src="../../../assets/img/dropdown.png" alt="dropdown">
+       <img src="../../../assets/img/dropdown.png" alt="">
      </div>
      <div class="description-go">
-       <img src="../../../assets/img/290.png" alt="go">
+       <img src="../../../assets/img/290.png" alt="">
        <span>Go</span>
      </div>
     </div>
@@ -68,23 +68,23 @@
            <div class="card-header-text">
              System Task
            </div>
-           <img src="../../../assets/img/pullup.png" alt="pullup">
+           <img src="../../../assets/img/pullup.png" alt="">
         </div>
         <div class="card-content">
            <div class="card-content-row">
-             <img src="../../../assets/img/view-info.ico" alt="info">
+             <img src="../../../assets/img/view-info.ico" alt="">
              <div class="card-content-text">
                View system information
              </div>
            </div>
            <div class="card-content-row">
-             <img src="../../../assets/img/302(16x16).png" alt="remove">
+             <img src="../../../assets/img/302(16x16).png" alt="">
              <div class="card-content-text">
                Add or remove programs
              </div>
            </div>
            <div class="card-content-row">
-             <img src="../../../assets/img/300(16x16).png" alt="setting">
+             <img src="../../../assets/img/300(16x16).png" alt="">
              <div class="card-content-text">
                Change a setting
              </div>
@@ -104,7 +104,7 @@
          <div class="card-content-right">
           <a   *ngFor="let item of listProjects" target="_blank" href="{{item.url}}">
             <div    class="right-item-card">
-              <img src="{{item.icon}}" alt="{{item.name}}">
+              <img src="{{item.icon}}" alt="">
               <div class="right-item-text">
                 <p>
                    {{item.name}}
