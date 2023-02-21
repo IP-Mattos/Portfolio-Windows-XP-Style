@@ -81,6 +81,7 @@
     width: calc(100% - 4px);
     margin: 0 2px;
     border-bottom: 1px solid #939498;
+  
 }
 
 .menu-bar span {
@@ -119,6 +120,7 @@
     align-items: center;
     padding: 1px 3px 0px;
     flex-shrink: 0;
+    overflow: hidden;
 }
 .function-btn{
     display: flex;
@@ -368,3 +370,10 @@
 .right-item-text span{
     font-size: 13px;
 }
+
+@media screen and (max-width:700px){
+    .content-left{
+      display: none;
+    }
+    }
+    
