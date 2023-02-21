@@ -1,17 +1,17 @@
 <div class="desktop">
   <div class="short-cut">
     <div class="icon select" (dblclick)="OnToggle($event)">
-      <img src="../../../assets/img/notepad.png" alt="notepad">
+      <img src="assets/img/notepad.png" alt="">
       <div class="icon-name">ReadMe.txt</div>
     </div>
     <div class="icon select" id="folder" (dblclick)="OnToggle($event)">
-      <img id="folder" src="../../../assets/img/308(32x32).png" alt="folder">
+      <img id="folder" src="assets/img/308(32x32).png" alt="">
       <div id="folder" class="icon-name">Projects</div>
     </div>
 
     <a  target="_blank"  *ngFor="let item of listSocial" href="{{item.url}}"  >
       <div  class="icon select">
-        <img src="{{item.icon}}" alt="{{item.name}}">
+        <img src="{{item.icon}}" alt="">
         <div class="icon-name">{{item.name}}</div>
       </div>
     </a>
