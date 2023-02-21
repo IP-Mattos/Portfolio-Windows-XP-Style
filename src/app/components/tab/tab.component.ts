@@ -12,7 +12,7 @@ export class TabComponent {
 
   Description = 'Soy Iván Peña FullStack Developer';
   Guide =
-    'Para poder navegar por la replica cierra esta ventana y luego puedes abrir las diferentes secciones clickeando en los iconos del escritorio y si clickeas en el botón de inicio podrás ver mas información sobre mi!';
+    'Para poder navegar por la replica puedes abrir las diferentes secciones clickeando en los iconos del escritorio y si clickeas en el botón de inicio podrás ver más información sobre mi!';
   OnToggle() {
     this.toggle.state = !this.toggle.state;
   }
