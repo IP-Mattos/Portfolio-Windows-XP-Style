@@ -1,11 +1,15 @@
 
+<app-start-menu *ngIf="show"/>
 <div class="task-bar">
 
-    <div class="btn-start"> <img src="../../../assets/img/icon.png" alt="start"> start</div>
+  <div class="btn-start" (click)="OnShow()"> <img src="../../../assets/img/icon.png" alt="start"> start</div>
 
-    <div class="tabs">
-      <div class="notepad" (click)="OnToggle()"> <img src="../../../assets/img/notepad.png" alt=""> ReadMe.txt</div>
-    </div>
-
-    <div class="time">{{time}}</div>
+  <div class="tabs">
+    <div *ngIf=' toggle.state && toggle.isfolder === false' class="notepad active"> <img
+        src="../../../assets/img/notepad.png" alt=""> ReadMe.txt</div>
+    <div class="notepad active" id="folder" *ngIf=' toggle.state && toggle.isfolder === true'> <img
+        src="../../../assets/img/folder.png" alt=""> ReadMe.txt</div>
   </div>
+  <div class="time">{{time}}</div>
+
+</div>

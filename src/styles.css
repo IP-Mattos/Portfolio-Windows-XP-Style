@@ -9,6 +9,9 @@ body{
     color: #ffffff;
 }
 
+a{
+    text-decoration: none;
+}
 
 @media (orientation: landscape) {
     body {

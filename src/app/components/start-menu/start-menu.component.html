@@ -1,0 +1,54 @@
+<div class="window-menu-container">
+    <div class="window-menu">
+      <div class="header">
+        <img src="../../../assets/img/299(32x32).png" alt="">
+        <span>User</span>
+      </div>
+      <div class="menu">
+        <hr>
+  
+        <div class="menu-left">
+            <h2>Lenguajes:</h2>
+          <div *ngFor="let item of listlang" class="menu-item">
+            <img src="{{item.icon}}" alt="">
+          
+            <div class="menu-item-texts">
+             
+              <div class="menu-item-text">
+                {{item.name}}
+              </div>
+            </div>
+          </div>
+        
+        
+        </div>
+  
+        <div class="menu-right">
+          <div class="menu-item-right">
+            <h3>Sobre mi:</h3>
+            <p>Soy un desarrollador Full stack con facilidad para trabajar en equipo y centrado en los resultados. </p>
+            <p>Tengo experiencia académica utilizando la metodología Scrum en el desarrollo de proyectos.</p>
+            <p> Estoy seguro de que puedo aportar valor a su equipo.</p>
+          </div>
+         
+        </div>
+  
+      </div>
+  
+      <div class="footer">
+        <div class="footer-item">
+          <img src="../../../assets/img/546(32x32).png" alt="Log Off">
+  
+          <span>
+            Log Off
+          </span>
+        </div>
+        <div class="footer-item">
+          <img src="../../../assets/img/310(32x32).png" alt="Turn Of Computer">
+          <span>
+            Turn Of Computer
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>

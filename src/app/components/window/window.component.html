@@ -1,51 +1,24 @@
 <div class="desktop">
   <div class="short-cut">
-    <div class="icon" id="notepad" (dblclick)="OnToggle()">
+    <div class="icon select" (dblclick)="OnToggle($event)">
       <img src="../../../assets/img/notepad.png" alt="">
-      <div class="icon-name">AboutMe.txt</div>
+      <div class="icon-name">ReadMe.txt</div>
     </div>
-    <div class="icon" id="notepad" (dblclick)="OnToggle()">
-      <img src="../../../assets/img/notepad.png" alt="">
-      <div class="icon-name">Projects.txt</div>
-
-    </div>
-    <div class="icon" id="notepad" (dblclick)="OnToggle()">
-      <img src="../../../assets/img/notepad.png" alt="">
-      <div class="icon-name">ContacMe.txt</div>
-
+    <div class="icon select" id="folder" (dblclick)="OnToggle($event)">
+      <img id="folder" src="../../../assets/img/308(32x32).png" alt="">
+      <div id="folder" class="icon-name">Projects</div>
     </div>
 
+    <a  target="_blank"  *ngFor="let item of listSocial" href="{{item.url}}"  >
+      <div  class="icon select">
+        <img src="{{item.icon}}" alt="">
+        <div class="icon-name">{{item.name}}</div>
+      </div>
+    </a>
+  
   </div>
   
   <app-tab/>
-  <!-- <div *ngIf="toggle.state" class="window ">
-    <div class="title-bar">
-      <div><img src="../../../assets/img/notepad.png"> ReadME.txt</div>
-      <div class="controls">
-        <button class="cls" (click)="OnToggle()">x</button>
-        <button class="max">□</button>
-        <button class="min" (click)="OnToggle()">-</button>
-      </div>
-    </div>
-    <div class="menu-bar">
-      <span>File</span>
-      <span>Edit</span>
-      <span>Format</span>
-      <span>View</span>
-      <span>Help</span>
-    </div>
-    <textarea></textarea>
-  </div> -->
+  <app-folder/>
   <app-taskbar/>
-<!-- 
-  <div class="task-bar">
-
-    <div class="btn-start"> <img src="../../../assets/img/icon.png" alt="start"> start</div>
-
-    <div class="tabs">
-      <div class="notepad" (click)="OnToggle()"> <img src="../../../assets/img/notepad.png" alt=""> ReadMe.txt</div>
-    </div>
-
-    <div class="time">{{time}}</div>
-  </div> -->
 </div>

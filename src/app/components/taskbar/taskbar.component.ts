@@ -12,16 +12,18 @@ export class TaskbarComponent {
   second = '';
   meridiem = '';
   time = '';
+  show = false;
 
   constructor(public toggle: Toggle) {
     this.updateTime();
     setInterval(() => this.updateTime(), 1000);
   }
-
   OnToggle() {
     this.toggle.state = !this.toggle.state;
   }
-
+  OnShow() {
+    this.show = !this.show;
+  }
   updateTime() {
     const date = new Date();
     let hours = date.getHours();
