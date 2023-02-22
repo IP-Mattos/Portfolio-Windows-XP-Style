@@ -132,7 +132,8 @@
   background-color: rgb(203, 227, 255);
   border-left: 1px solid rgba(58, 58, 255, 0.37);
   padding: 6px 5px 5px;
-  width: 190px;
+  width: 100%;
+  max-width: 200px;
   color: rgb(0, 19, 107);
 }
 .menu-right h3{
@@ -143,6 +144,7 @@
 .menu-right p{
   font-size: 1.2rem;
   margin-bottom: 10px;
+  line-height: 1;
 }
 
 .footer {
