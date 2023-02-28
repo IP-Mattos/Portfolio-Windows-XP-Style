@@ -27,7 +27,7 @@ export class WindowComponent {
     {
       name: 'Cv',
       icon: '../../../assets/img/social/pdf-icon.svg',
-      url: 'https://drive.google.com/file/d/1a_D7DczT2zSAo63aqr-Hc6efXzl-Tl6l/view?usp=sharing',
+      url: 'https://drive.google.com/file/d/17toZTxCOguxIKft9yON6Mx2SUdu_c7QZ/view?usp=sharing',
     },
   ];
   OnToggle(event: any) {
