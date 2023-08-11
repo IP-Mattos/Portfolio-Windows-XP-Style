@@ -1,27 +1,28 @@
-# Portfolio
+# Windows XP Style
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.3.
+## Acerca del Proyecto:
 
-## Development server
+> **Windows XP Style** es un sitio web único que combina la estética clásica de Windows XP con la presentación moderna de un portafolio personal. El diseño y el contenido han sido creados con un toque retro para recordar la era de los sistemas operativos antiguos.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Características:
 
-## Code scaffolding
+- Estilo visual inspirado en Windows XP, con elementos icónicos y colores familiares.
+- Secciones organizadas para mostrar proyectos, habilidades, experiencia y contacto.
+- Diseño altamente interactivo con ventanas emergentes y efectos de clic.
+- Uso de tecnologías web modernas para brindar una experiencia de usuario fluida.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Capturas de Pantalla:
+>![](home.png)
+## Tecnologías Utilizadas
 
-## Build
+- ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+- ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+- ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Contacto
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Si tienes alguna pregunta o comentario, no dudes en ponerte en contacto:
+<a href="https://www.linkedin.com/in/iv%C3%A1n-ignacio-pe%C3%B1a-mattos-fullstack/"><img src="https://img.shields.io/badge/-Iv%C3%A1n%20Pe%C3%B1a-0077B5?style=flat&logo=Linkedin&logoColor=white"/></a>
+<a href="mailto:ipmattoscontactos@gmail.com"><img src="https://img.shields.io/badge/-ipmattoscontactos@gmail.com-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
