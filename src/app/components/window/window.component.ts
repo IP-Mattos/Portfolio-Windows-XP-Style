@@ -25,9 +25,14 @@ export class WindowComponent {
       url: 'mailto:ipmattoscontactos@gmail.com?Subject=Contacto',
     },
     {
-      name: 'Cv',
+      name: 'Cv en Español',
       icon: '../../../assets/img/social/pdf-icon.svg',
-      url: 'https://drive.google.com/file/d/1iyzQNktZd6U6fUNWgKpVCv6n7CUOqZUo/view?usp=sharing',
+      url: 'https://drive.google.com/file/d/1dOl4gQmGh6fnQKBeT-1bhxsGFPbsdDG5/view?usp=sharing',
+    },
+    {
+      name: 'Cv en Ingles',
+      icon: '../../../assets/img/social/pdf-icon.svg',
+      url: 'https://drive.google.com/file/d/1ujhBsshN3AKjRjPtsDTv1RtW6vipDOsy/view?usp=sharing',
     },
   ];
   OnToggle(event: any) {
